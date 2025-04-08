@@ -65,7 +65,7 @@ input_data = np.array ([[Temperature, RH, Ws, Rain, FFMC, DMC, DC, ISI, BUI, Cla
 
 if st.button("Predict Fires"):
     prediction = lr_model.predict(input_data)
-    st.success(f"Predicted Sales: {prediction[0]:.2f}")
+    st.success(f"Predicted Fires: {prediction[0]:.2f}")
 
 # input_data = np.array(input_data)
 # input = input_data.reshape(1,-1)
