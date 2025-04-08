@@ -1,0 +1,8 @@
+pandas
+matplotlib
+streamlit
+numpy
+joblib
+scikit-learn
+seaborn
+memory_profiler
